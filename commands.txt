@@ -1,0 +1,12 @@
+source SG/X/bin/activate  #headless openCv
+source N/bin/activate     #normal openCv
+
+cd x
+
+python3 v.py
+
+
+ctrl+c = to stop running
+
+
+ngrok http 5000 --domain=angler-undivided-limit.ngrok-free.dev

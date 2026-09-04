@@ -1,0 +1,17 @@
+================================================================================
+                           ENVIRONMENT VARIABLES CONFIG
+================================================================================
+
+• GEMINI_API_KEY      : API key used to access Google Gemini AI features.
+• GEMINI_API_KEY_2    : Optional backup Gemini API key.
+• SENDER_EMAIL        : Email account used to send emergency alerts.
+• SENDER_APP_PASSWORD : Google App password from the sender email used to authenticate the sender email.
+• EMERGENCY_EMAIL     : Email address that receives emergency/SOS alerts.
+• LOGIN_EMAIL         : Username/email used to access the web panel.
+• LOGIN_PASSWORD_HASH : Hashed password used for web panel authentication.
+• NGROK_DOMAIN        : ngrok domain used to access the web panel remotely.
+• EMERGENCY_PHONE     : Phone number used for emergency notifications.
+• FLASK_SECRET_KEY    : Secret key used by Flask to secure sessions and other 
+                        security-related features.
+
+================================================================================

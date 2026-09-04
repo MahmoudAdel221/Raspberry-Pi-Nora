@@ -1,0 +1,42 @@
+# ============================================================
+# NORA Smart Glasses — Python Dependencies
+# ============================================================
+# تثبيت: pip install -r requirements.txt
+# ملاحظة: PyTorch لازم يتثبت أول قبل ultralytics
+# ============================================================
+
+# ── PyTorch CPU (الراسبيري باي مفيش CUDA) ──────────────────
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# ── Computer Vision ─────────────────────────────────────────
+opencv-contrib-python                # or for headless version use : opencv-contrib-python-headless
+ultralytics
+
+# ── AI / Gemini ─────────────────────────────────────────────
+google-genai
+
+# ── Text to Speech ──────────────────────────────────────────
+gtts
+
+# ── Image Processing ────────────────────────────────────────
+Pillow
+numpy
+
+# ── Voice Recognition ───────────────────────────────────────
+speechrecognition
+pyaudio
+
+# ── Environment & Config ────────────────────────────────────
+python-dotenv
+
+# ── Network & Communication ─────────────────────────────────
+requests
+pyserial
+
+# ── Browser Automation (WhatsApp SOS) ───────────────────────
+selenium
+
+# ── Web Panel ───────────────────────────────────────────────
+flask-limiter
